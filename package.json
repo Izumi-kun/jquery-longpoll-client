@@ -1,0 +1,25 @@
+{
+  "name": "jquery-longpoll-client",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/jquery.longpoll.js",
+  "scripts": {
+    "build": "grunt build"
+  },
+  "files": [
+    "src",
+    "dist",
+    "LICENSE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Izumi-kun/jquery-longpoll-client.git"
+  },
+  "author": "Viktor Khokhryakov <viktor.khokhryakov@gmail.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "jquery": "2.2.4",
+    "grunt": "1.0.1",
+    "grunt-contrib-uglify": "2.0.0"
+  }
+}
