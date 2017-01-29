@@ -9,7 +9,7 @@ module.exports = function (grunt) {
                     'dist/jquery.longpoll.min.js': ['src/jquery.longpoll.js']
                 },
                 options: {
-                    banner: '/* jQuery LongPoll client script */\n'
+                    banner: '/**\n * jQuery LongPoll client script.\n *\n * @license https://opensource.org/licenses/BSD-3-Clause\n * @author Viktor Khokhryakov <viktor.khokhryakov@gmail.com>\n */\n'
                 }
             }
         }

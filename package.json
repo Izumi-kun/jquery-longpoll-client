@@ -1,7 +1,7 @@
 {
   "name": "jquery-longpoll-client",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.2.0",
+  "description": "Simple client-side longpoll implementation",
   "main": "src/jquery.longpoll.js",
   "scripts": {
     "build": "grunt build"
