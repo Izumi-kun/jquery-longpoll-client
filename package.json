@@ -1,20 +1,17 @@
 {
   "name": "jquery-longpoll-client",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simple client-side longpoll implementation",
+  "keywords": ["jquery", "ajax", "longpoll", "comet"],
   "main": "src/jquery.longpoll.js",
   "scripts": {
     "build": "grunt build"
   },
   "files": [
     "src",
-    "dist",
-    "LICENSE.md"
+    "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Izumi-kun/jquery-longpoll-client.git"
-  },
+  "repository": "izumi-kun/jquery-longpoll-client",
   "author": "Viktor Khokhryakov <viktor.khokhryakov@gmail.com>",
   "license": "BSD-3-Clause",
   "devDependencies": {
