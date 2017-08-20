@@ -91,17 +91,15 @@
         data: params,
         dataType: "json"
       }).done(function (response) {
-        var triggered = false;
         $.each(response.params, function (id, value) {
-          if (params[id] != value) {
-            triggered = true;
+          if (params[id] !== value) {
+            params = response.params;
+            if ($.isFunction(self.callback)) {
+              self.callback.call(self, response.data);
+            }
             return false;
           }
         });
-        params = response.params;
-        if (triggered && $.isFunction(self.callback)) {
-          self.callback.call(self, response.data);
-        }
         timeoutId = setTimeout(doLoop, settings.pollInterval);
       }).fail(function (e) {
         if (e.status) {

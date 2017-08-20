@@ -1,6 +1,6 @@
 {
   "name": "jquery-longpoll-client",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Simple client-side longpoll implementation",
   "keywords": ["jquery", "ajax", "longpoll", "comet"],
   "main": "src/jquery.longpoll.js",
